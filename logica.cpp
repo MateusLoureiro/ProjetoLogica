@@ -2,12 +2,14 @@
 using namespace std;
 
 int main(){
+  /*
   printf("Digite o nome do Arquivo de entrada: ");
   string arquivo;
   cin >> arquivo;
-  
   freopen(arquivo.c_str(), "r", stdin);
-  freopen("out.txt", "w", stdout);
+  /**/
+  freopen("Entrada.in", "r", stdin);
+  freopen("saida.out", "w", stdout);
 
   int n;
   string prop;
